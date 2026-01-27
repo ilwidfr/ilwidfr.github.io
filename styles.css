@@ -1,4 +1,4 @@
-@font-face {
+.@font-face {
     font-family: "Open Runde";
     src: url("https://cdn.jsdelivr.net/gh/lauridskern/open-runde@main/src/web/OpenRunde-Medium.woff2") format("woff2");
     font-weight: 500;
@@ -11,12 +11,18 @@
 }
 body {
     font-family: 'Open Runde', sans-serif;
-    margin: 18px;
+    margin: 0;
     padding: 18px;
     color: var(--grey);
     font-size: 18px;
     scrollbar-width: none;
     font-weight: 500;
+    width: 75%;
+    max-width: 600px
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh
 }
 a {
     color: var(--black);
