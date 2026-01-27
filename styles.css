@@ -1,7 +1,41 @@
+@font-face {
+    font-family: "Open Runde";
+    src: url("https://cdn.jsdelivr.net/gh/lauridskern/open-runde@main/src/web/OpenRunde-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+:root {
+    --grey: #828282;
+    --black: #1f1f1f;
+}
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+    font-family: 'Open Runde', sans-serif;
+    margin: 18px;
+    padding: 18px;
+    color: var(--grey);
+    font-size: 18px;
+    scrollbar-width: none;
+    font-weight: 500;
+}
+a {
+    color: var(--black);
+    transition: color 0.2s ease-in-out;
+}
+a:hover {
+    color: var(--grey)
+}
+.disp {
+    color: var(--black);
+}
+footer {
+    color: var(--grey)
+}
+.iine-button {
+    padding: 0px;
+    background-color: #ffffff;
+    font-size: 18px;
+    color: var(--grey);
+    display: inline-block;
+    font-family: "Open Runde"
 }
