@@ -38,10 +38,8 @@ footer {
     color: var(--grey)
 }
 .iine-button {
-    padding: 0px;
     background-color: #ffffff;
     font-size: 18px;
     color: var(--grey);
-    display: inline-block;
     font-family: "Open Runde"
 }
