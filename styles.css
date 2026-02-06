@@ -1,16 +1,9 @@
-@font-face {
-    font-family: "Open Runde";
-    src: url("https://cdn.jsdelivr.net/gh/lauridskern/open-runde@main/src/web/OpenRunde-Medium.woff2") format("woff2");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
 :root {
     --grey: #828282;
     --black: #1f1f1f;
 }
 body {
-    font-family: 'Open Runde', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, Adwaita Sans, Cantarell, Ubuntu, roboto, noto, helvetica, arial, sans-serif;
     margin: 0 auto;
     padding: 18px;
     color: var(--grey);
@@ -41,5 +34,6 @@ footer {
     background-color: #ffffff;
     font-size: 18px;
     color: var(--grey);
-    font-family: "Open Runde"
+    font-family: inherit;
+    display: flex
 }
