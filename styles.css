@@ -41,5 +41,6 @@ footer {
     color: var(--grey);
     font-family: inherit;
     display: flex;
-    box-align: left
+    box-align: left;
+    text-align: left;
 }
