@@ -30,10 +30,16 @@ a:hover {
 footer {
     color: var(--grey)
 }
+.button {
+    padding: 6px 12px;
+    background: #dcdcdc;
+    color: var(var(--black))
+}
 .iine-button {
     background-color: #ffffff;
     font-size: 18px;
     color: var(--grey);
     font-family: inherit;
-    display: flex
+    display: flex;
+    box-align: left
 }
