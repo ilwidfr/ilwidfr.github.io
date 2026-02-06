@@ -44,3 +44,6 @@ footer {
     box-align: left;
     text-align: left;
 }
+.space {
+    visibility: hidden;
+}
